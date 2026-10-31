@@ -1,0 +1,7 @@
+{
+  "name": "@expunge-ops/blast-radius",
+  "private": true,
+  "type": "module",
+  "author": "Yug",
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@expunge-ops/audit",
+  "private": true,
+  "type": "module",
+  "author": "Yug",
+  "license": "MIT"
+}

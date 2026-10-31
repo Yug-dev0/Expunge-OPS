@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d0c0a" />
+    <script>
+      // Apply the saved theme before first paint so the page never flashes the wrong paper.
+      try { var saved = localStorage.getItem('expungeops.theme') || localStorage.getItem('eraseops.theme'); document.documentElement.dataset.theme = saved === 'light' ? 'light' : 'dark'; if (saved === 'light') document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f3ecdd'); } catch (e) { document.documentElement.dataset.theme = 'dark'; }
+    </script>
+    <meta name="description" content="Expunge-OPS finds a customer's personal data across systems, rehearses the deletion, waits for human approval of the exact plan, and proves the data is gone." />
+    <meta name="author" content="Yug" />
+    <meta name="creator" content="Yug" />
+    <title>Expunge-OPS</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "@expunge-ops/mcp-server",
+  "private": true,
+  "type": "module",
+  "author": "Yug",
+  "license": "MIT"
+}
